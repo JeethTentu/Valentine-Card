@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Card</title>
+    <link rel="icon" type="image/x-icon" href="favi.png">
+    <link rel="stylesheet" href="valgo.css">
+   <script>
+    function regular(){
+        document.getElementById('image').src="dog.gif";
+        document.getElementById('reply').src="me.gif"
+}
+    function happy(){
+        document.getElementById('image').src="yes.gif";
+    }
+    function sad(){
+        document.getElementById('image').src="nono.gif";
+        document.getElementById('reply').src="nooo.gif"
+    }
+    
+    function thanks(){
+  document.getElementById('reply').src="kii.gif"
+  document.getElementById('image').src="iik.gif"
+    }
+
+    function noproblem(){
+        document.getElementById('no').innerHTML="🥺🥺🥺";
+    }
+   </script>
+
+</head>
+<body>
+    <div id="text">
+        <p id="prop">Will You Be My Valentine?</p>
+    </div>
+    
+        <img id="image" src="dog.gif">
+    
+ <div id="bun"  onmouseout="regular()" >
+        <button onclick="thanks()" id="ok" onmouseover="happy()">Yeah! Sure 😍</button>
+        <button onclick="noproblem()" id="no"  onmouseover="sad()">NO 🙃</button>
+    
+    </div>
+    <div>
+        <img style="position: absolute;left:69%;top:50%" id="reply" src="me.gif">
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    background-image:url("wall.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    background-attachment: fixed;
+    
+    
+}
+@font-face {
+    font-family: pie;
+    src: url(Valentine\ Cute.ttf);
+}
+
+@font-face {
+    font-family: cake;
+    src: url(you_are_my_valentine/You\ Are\ My\ Valentine.otf);
+}
+@font-face {
+    font-family: cher;
+    src: url(valentine_14/Valentine.ttf);
+}
+@font-face {
+    font-family:bu ;
+    src: url(love\ story\ ttf.ttf);
+}
+
+#prop{
+    font-family:cher ;
+    font-size: 99px;
+    position:absolute;
+    left: 29%;
+    top:26%;
+}
+
+#ok{
+    background-color: beige;
+    font-family:bu ;
+    font-size: 36px;;
+    position:absolute;
+    border-radius: 20px;
+    left:30% ;
+    top:55%;
+
+}
+#ok:hover{
+    background-color: rgb(227, 156, 225);
+}
+
+#no{
+    font-family: bu;
+    position: absolute;
+    left:59%;
+    top:55%;
+    font-size: 36px;
+    border-radius:20px ;
+
+}
+#no:hover{
+    background-color: rgb(232, 45, 45);
+}
+#image{
+    position: absolute;
+    left:44%;
+    top:13%;
+    height:200px;
+}
